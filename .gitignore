@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+uv.lock
+
+# Data (user downloads)
+data/
+data_small/
+notebooks/data/
+
+# Generated artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Compiled files
+*.npz
+*.npy

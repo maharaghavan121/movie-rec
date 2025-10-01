@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Ruff Fix",
+        "type": "shell",
+        "command": "uvx ruff check . --fix",
+        "problemMatcher": [],
+        "group": "none"
+      }
+    ]
+  }
+  
